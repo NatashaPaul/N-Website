@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natasha-Website</title>
+    <!--css -->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+     nav{
+        float: left;
+        width: 100%;
+        height: 50px;
+        background-color: darkgray;
+        list-style-type: none;
+        }
+    .navbar{
+            display: flex;
+        } 
+        .nav-list{
+            display: flex;
+            width: 84%;
+         }
+         search{
+            padding: 5px;
+            border: 2px solid gray;
+            border-radius: 50px;
+         }
+         .nav-list li{
+            list-style: none;
+            padding: 5px 19px;
+         }
+         background{
+            background: rgba(0,0 ,0, 0.7) url('img/sault college1.jpg');
+         }
+    nav ul{
+        list-style-type: none;
+     }
+     nav ul a{
+        text-decoration: none;
+        color: black;
+     }
+     
+         img{
+        width: 100%;
+     }
+     
+     footer{
+        background: gray;
+        padding: 2px 2px;
+        height: 50px;
+        text-align: center;
+     }
+    </style>
+</head>
+<body>
+    <!---header and footer with body--->
+    <header></header>
+        
+    
+    <!--navbar-->
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./product.html">Product</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact us.html">Contact Us</a></li>
+            </ul>
+            <div class="rightNav">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">Search</button>
+            </div>
+        </nav>
+        <!--image-->
+       
+    <section class="background firstsection">
+        <div class="box-main">
+             
+            <div class="secondHalf">
+                <img src="./sault college1.jpg" alt="Sault Image"> 
+            </div>
+        </div>
+    </section>
+    <article>
+        <p>Do you want to learn Website development from scretch ?</p>
+        <br>
+        <p>If yes, then you are on your destination.....</p>
+    </article>
+
+    <footer>
+        <p>copyright &copy;2016 Your Company </p>
+    </footer>
+    
+</body>
+</html>
